@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>Theater Club Membership</title>
+</head>
+<body>
+
+<h1>Theater Club Membership</h1>
+
+    <h2>Add New Member</h2>
+
+    <label>First Name:</label>
+    <input type="text" id="fname">
+
+    <br><br>
+
+    <label>Last Name:</label>
+    <input type="text" id="lname">
+
+    <br><br>
+
+    <button py-click="add_member">Add Member</button>
+
+    <h2>Membership Results</h2>
+
+    <div id="output"></div>
+
+    <script type="py" src="./main.py"></script>
+
+</body>
+</html>
